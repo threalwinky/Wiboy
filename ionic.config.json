@@ -1,0 +1,7 @@
+{
+  "name": "wiboy",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
