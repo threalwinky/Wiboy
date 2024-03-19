@@ -47,8 +47,8 @@ const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonTabs>
-        <IonRouterOutlet>
-          <Route exact path="/home">
+        <IonRouterOutlet onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+        <Route exact path="/home">
             <Home />
           </Route>
           <Route path="/images">
