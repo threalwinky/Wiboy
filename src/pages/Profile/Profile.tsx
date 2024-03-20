@@ -128,7 +128,7 @@ const Profile: React.FC = () => {
               </IonCard>
             </IonCol>
             <IonCol size="11.8" size-sm="8.8" color="dark">
-                <IonText color={"dark"}>123</IonText>
+                <IonText color={"dark"}></IonText>
                 <HeatMap
                   className="profile-heatmap"
                   value={value}
